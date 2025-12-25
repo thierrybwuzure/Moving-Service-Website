@@ -1,0 +1,40 @@
+.bg-dark.bg-gradient {
+    /* background-color: rgb(255, 250, 244); */
+    background-image: var(--bs-gradient)
+}
+
+/* Navbar */
+.navbar {
+    height: 5rem;
+    background-color: rgb(249, 237, 223);
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    font-weight: 600;
+    color: darkblue;
+}
+
+/* Hero */
+.hero-container {
+    padding: 20px;
+}
+
+.hero-p {
+    margin: 15px;
+    padding: 25px;
+}
+
+/* Features */
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+/* Footer */
+span {
+    color: darkblue;
+    font-weight: 600;
+    cursor: pointer;
+}

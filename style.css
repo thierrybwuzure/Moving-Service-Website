@@ -27,26 +27,30 @@ nav li {
 
 .accueil,
 .story {
-    background-color: rgba(0, 0, 0, 0.20);
+    background-color: rgba(0, 0, 0, 0.25);
     background-blend-mode: darken;
 }
 
 /* Accueil */
 
 .accueil {
+    position: relative;
     background-image: url(./move1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.accueil-header,
-.story-header {}
-
 /* Hero */
 .hero-container {
     width: 100%;
     height: 100vh;
+}
+
+.hero-title {
+    color: rgb(254, 243, 230);
+    font-weight: 500;
+    text-shadow: 1px 2px 3px black;
 }
 
 .hero-p {
@@ -74,15 +78,36 @@ span {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 
-.story p {
+.accueil::before,
+.story::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+    z-index: 0;
+}
+
+.accueil>*,
+.story>* {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-container p {
+    color: rgb(254, 243, 230);
+    text-shadow: 1px 1px 1px black;
     text-align: left;
 }
 
 @media (max-width: 991.98px) {
     .navbar-collapse {
-        background-color: rgb(254, 243, 230, 0.5);
+        background-color: rgb(254, 243, 230, 0.9);
         padding: 1rem;
         margin-top: 0.5rem;
         border-radius: 0.75rem;

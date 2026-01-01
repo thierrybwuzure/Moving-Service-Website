@@ -11,12 +11,28 @@
 
 .navbar-brand,
 .navbar-brand:hover {
-    font-weight: 600;
+    font-weight: 400;
     color: darkblue;
+}
+
+/* Accueil */
+
+.accueil {
+    background-image: url(./move1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.accueil p {
+    background-color: rgb(255, 255, 255, 0.7);
+
 }
 
 /* Hero */
 .hero-container {
+    width: 100vw;
+    height: 100vh;
     padding: 20px;
 }
 
@@ -35,6 +51,23 @@
 /* Footer */
 span {
     color: darkblue;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
+}
+
+/* À propos */
+
+.story {
+    width: 100vw;
+    background-image: url(./moving_background1_ekaterina-bolovtsova-4868603.jpg);
+    background-size: cover;
+}
+
+.story h1,
+.story p {
+    text-align: left;
+}
+
+.story-text {
+    background-color: rgb(246, 246, 246);
 }

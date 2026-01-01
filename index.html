@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MoveForward</title>
+  <title>Accueil - MoveForward</title>
   <link rel="icon" type="image/x-icon" href="./boxes.svg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
@@ -17,7 +17,8 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-secundary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./boxes.svg" alt="moveforward brand icon" height="28"> MoveForward</a>
+      <a class="navbar-brand" href="index.html"><img src="./boxes.svg" alt="moveforward brand icon" height="28">
+        MoveForward</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,23 +26,27 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">À propos</a>
+            <a class="nav-link" href="apropos.html">À propos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Services
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Déménagement résidentiel</a></li>
-              <li><a class="dropdown-item" href="#">Déménagement professionnel</a></li>
+              <li><a class="dropdown-item" href="demenagement-residential.html">Déménagement résidentiel</a></li>
+              <li><a class="dropdown-item" href="demenagement-professionnel.html">Déménagement professionnel</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Transport de matériel et de meubles</a></li>
+              <li><a class="dropdown-item" href="transport-materiel.html">Transport de matériel et de meubles</a></li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Nous contacter</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -53,10 +58,11 @@
   </nav>
 
   <!-- Hero Section -->
-  <div class="px-4 pt-5 my-5 text-center border-bottom hero-container">
-    <h1 class="display-4 fw-bold text-body-emphasis hero-title">Déménager avec le sourire</h1>
+  <div class="px-4 pt-5 text-center  hero-container accueil">
+    <h1 class="display-4 fw-semibold text-body-emphasis hero-title mt-4">Déménager avec le sourire</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4 hero-p">Bienvenue sur notre site Web, où nous avons pour mission de fournir des services de
+      <p class="lead mb-4 hero-p rounded-1">Bienvenue sur notre site Web, où nous avons pour mission de fournir des
+        services de
         déménagement à nos clients dans la région de Bruxelles. En tant que start-up,
         nous pensons que déménager ne doit pas nécessairement être stressant ou
         compliqué, et nous mettons tout en œuvre pour rendre ce processus aussi fluide et agréable que possible.</p>
@@ -64,14 +70,14 @@
       <!-- Hero Buttons -->
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"> <button type="button"
           class="btn btn-primary btn-lg px-4 me-sm-3">Obtenir un devis</button> <button type="button"
-          class="btn btn-outline-secondary btn-lg px-4">Nous contacter</button> </div>
+          class="btn btn-light btn-lg px-4">Nous contacter</button> </div>
     </div>
 
     <!-- Hero Banner -->
-    <div class="overflow-hidden">
-      <div class="container px-5"> <img src="./move1.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"
-          alt="family moving box" width="1000" height="700" loading="lazy"> </div>
-    </div>
+    <!-- <div class="overflow-hidden">
+      <div class="container px-5"> <img src="" class="img-fluid border rounded-3 shadow-lg mb-4" alt="family moving box"
+          width="1000" height="700" loading="lazy"> </div>
+    </div> -->
   </div>
 
   <!-- Features -->
@@ -91,7 +97,7 @@
           expériences. C'est pourquoi nous veillons tout particulièrement à ce que tout soit emballé et transporté avec
           le plus
           grand soin et la plus grande attention.</p> <a href="#" class="icon-link">
-          Obtenir un devis
+          En savoir plus
           <a href="#"><img src="./chevron-right.svg" alt="right arrow" height="12"></a>
       </div>
       <div class="feature col">
@@ -108,6 +114,8 @@
           transparente et à l'absence de frais cachés, vous pouvez être sûr de bénéficier d'un tarif équitable et
           compétitif pour
           nos services.
+        </p> <a href="#" class="icon-link">
+          En savoir plus
           <a href="#"><img src="./chevron-right.svg" alt="right arrow" height="12"></a>
       </div>
       <div class="feature col">
@@ -118,17 +126,25 @@
         <h3 class="fs-2 text-body-emphasis">Personnalisé</h3>
         <p>Nous sommes convaincus que déménager doit être une expérience passionnante et positive, et non une source de
           stress. En
-          fournissant des services de déménagement exceptionnels aux États-Unis, nous espérons révolutionner la façon
+          fournissant des services de déménagement exceptionnels en Belgique, nous espérons révolutionner la façon
           dont les
           gens perçoivent le déménagement et offrir une expérience meilleure et plus personnalisée à nos clients.
           Contactez-nous
           dès aujourd'hui pour en savoir plus sur la façon dont nous pouvons vous aider lors de votre prochain
           déménagement.</p> <a href="#" class="icon-link">
-          Obtenir un devis
-          <a href="#"><img src="./chevron-right.svg" alt="right arrow" height="12"> </a>
+          En savoir plus <a href="#"><img src="./chevron-right.svg" alt="right arrow" height="12"> </a>
       </div>
     </div>
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./move2.jpg" class="d-block w-100" alt="family sitting on couch">
@@ -154,20 +170,24 @@
         <div class="col-6 col-md-2 mb-3">
           <h5>Entreprise</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Accueil</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">À propos</a></li>
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Accueil</a></li>
+            <li class="nav-item mb-2"><a href="apropos.html" class="nav-link p-0 text-body-secondary">À propos</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Notre équipe</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Carrières</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contactez-nous</a></li>
+            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Contactez-nous</a>
+            </li>
           </ul>
         </div>
         <div class="col-6 col-md-2 mb-3">
           <h5>Section</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Professionnel</a>
+            <li class="nav-item mb-2"><a href="demenagement-professionnel.html"
+                class="nav-link p-0 text-body-secondary">Professionnel</a>
             </li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Particulier</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Transport personnalisé</a>
+            <li class="nav-item mb-2"><a href="demenagement-residential.html"
+                class="nav-link p-0 text-body-secondary">Particulier</a></li>
+            <li class="nav-item mb-2"><a href="transport-materiel.html"
+                class="nav-link p-0 text-body-secondary">Transport personnalisé</a>
             </li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Emballage & protection</a>
             </li>

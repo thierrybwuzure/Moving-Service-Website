@@ -105,4 +105,8 @@ span {
         min-height: 60vh;
         padding-bottom: 3rem;
     }
+
+    .hero-container {
+        font-size: 1rem;
+    }
 }

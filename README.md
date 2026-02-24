@@ -1,67 +1,72 @@
-# Moving Forward - Moving Service Website
+# MoveForward — Moving Service Website
 
-## Project Overview
+A responsive multi-page website for a Brussels-based moving company, built with Bootstrap 5 and custom CSS.
 
-**Moving Forward** is my first project built with the Bootstrap library. This project represents a significant breakthrough in my web development journey, enabling me to build professional-quality web applications much faster than when coding CSS from scratch.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
-Currently, the project features a single landing page and is under construction. This is a learning journey, and I will continuously expanding the project as I grow my skills.
-
-## Technology Stack
-
-- **HTML5**: Semantic markup for structure and accessibility
-- **CSS3**: Custom styling for unique design elements and refinements
-- **Bootstrap 5**: The primary CSS framework handling the majority of styling through utility classes and pre-built components. Bootstrap classes form the backbone of the layout, responsive design, and component styling throughout the project
-
-## Project Status
-
-### Current State
-- Single landing page with responsive design
-- Bootstrap-powered layout and components
-- Custom CSS for project-specific styling needs
-
-### Upcoming Features & Development
-- **Additional Pages**: More pages will be added as the project expands (services detail page, contact page, testimonials, etc.)
-- **JavaScript Functionality**: As I deepen my understanding of JavaScript fundamentals, I will implement:
-  - Dark mode toggle functionality
-  - Dynamic interactive features
-  - Enhanced user experience with animations and transitions
-  - Form validation and interactivity
-
-## Learning Goals
-
-This project serves multiple purposes in my development career:
-
-1. **Bootstrap Mastery**: Learning to leverage Bootstrap's powerful utility-first approach to CSS
-2. **Responsive Design**: Building mobile-first, responsive layouts efficiently
-3. **Framework vs. Customization Balance**: Finding the sweet spot between using Bootstrap's built-in components and adding custom CSS for unique design requirements
-4. **JavaScript Foundations**: Gradually integrating JavaScript to add interactivity and dynamic behavior
-5. **Professional Development**: Creating a portfolio project that demonstrates modern web development practices
-
-## Project Mindset
-
-Rather than building everything from scratch with custom CSS (time-intensive), or relying entirely on a framework (less customization), this project strikes a balance. The majority of styling comes from Bootstrap's comprehensive class library, which provides:
-
-- Consistent grid system
-- Pre-styled components (buttons, cards, navigation, etc.)
-- Responsive utilities
-- Color system and typography
-
-Custom CSS is applied strategically where the design requires unique styling that goes beyond Bootstrap's standard offerings.
-
-## How to Use
-
-1. Open `index.html` in your web browser to view the landing page
-2. The site is responsive and will adapt to different screen sizes
-3. Visit the [Moving Forward](https://thierrybwuzure.github.io/Moving-Forward--Moving-Service-/) website
-
-## Future Development
-
-As this project evolves, expect to see:
-- New pages and sections
-- Interactive JavaScript features
-- Improved accessibility features
-- Optimized performance
+**Live Demo →** [View Site](https://thierrybwuzure.github.io/Moving-Forward--Moving-Service-/)
 
 ---
 
-**Note**: New features and improvements are being added progressively.
+## Overview
+
+MoveForward is a fictional moving company serving the Brussels region. Built as my first Bootstrap 5
+project, it strikes a balance between Bootstrap utility classes and custom CSS for a distinctive design.
+
+---
+
+## Pages
+
+| Page | Description |
+|------|-------------|
+| `index.html` | Homepage — hero, services overview, image carousel |
+| `apropos.html` | About the company |
+| `services.html` | All services |
+| `contact.html` | Contact form |
+| `demenagement-residential.html` | Residential moving |
+| `demenagement-professionnel.html` | Professional/office moving |
+| `transport-materiel.html` | Equipment transport |
+
+## Features
+
+- Fully responsive via Bootstrap 5 grid system
+- Service dropdown navigation menu
+- Image carousel
+- Custom CSS layered over Bootstrap defaults
+- SVG icons throughout
+
+---
+
+## What I Learned
+
+- Working with a CSS framework for the first time (Bootstrap 5)
+- Balancing utility classes with custom CSS overrides
+- Structuring a multi-page site with consistent navigation
+- Using Bootstrap components: navbar, carousel, grid, dropdowns
+
+---
+
+## Project Structure
+
+Moving-Forward--Moving-Service-/
+├── index.html
+├── apropos.html
+├── services.html
+├── contact.html
+├── demenagement-residential.html
+├── demenagement-professionnel.html
+├── transport-materiel.html
+├── style.css
+└── images/
+
+
+
+---
+
+## Author
+
+**Thierry Bwuzure** — Junior Frontend Developer · Brussels, Belgium
+
+[GitHub](https://github.com/thierrybwuzure) · [LinkedIn](https://linkedin.com/in/thierrybwuzure)

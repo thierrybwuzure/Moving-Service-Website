@@ -1,5 +1,9 @@
 # MoveForward — Moving Service Website
 
+<p>
+  <img src="preview.jpg" alt="MoveForward Preview" width="800">
+</p>
+
 A responsive multi-page website for a Brussels-based moving company, built with Bootstrap 5 and custom CSS.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)

@@ -1,7 +1,7 @@
 # MoveForward — Moving Service Website
 
 <p>
-  <img src="assets/preview.jpg" alt="MoveForward Preview" width="800">
+  <img src="asset/preview.jpg" alt="MoveForward Preview" width="800">
 </p>
 
 A responsive multi-page website for a Brussels-based moving company, built with Bootstrap 5 and custom CSS.

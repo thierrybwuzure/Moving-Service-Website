@@ -45,7 +45,7 @@ body {
 
 .accueil {
     position: relative;
-    background-image: url(./move1.jpg);
+    background-image: url(./asset/move1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ span {
 /* À propos */
 
 .story {
-    background-image: url(./move_story1-mart-production-7414919.jpg);
+    background-image: url(./asset/move_story1-mart-production-7414919.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
